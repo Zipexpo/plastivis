@@ -1,0 +1,12 @@
+.legendCustom {
+    font-family: "Open Sans", verdana, arial, sans-serif;
+    font-size: 12px;
+    fill: rgb(68, 68, 68);
+    fill-opacity: 1;
+    white-space: pre;
+}
+.legendtoggle {
+    cursor: pointer;
+    fill: rgb(0, 0, 0);
+    fill-opacity: 0;
+}

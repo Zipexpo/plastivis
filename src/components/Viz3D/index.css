@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    overflow: hidden;
+}
+
+.canvas {
+    /*pointer-events: none;*/
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.legendDiv {
+    position: absolute;
+    top:0;
+    right:0;
+    color: #c9c9c9;
+}
+
+.barVis {
+    height: 15px;
+}
+
+.animationList *{
+    transition: 1s all ease-in-out;
+    position: relative;
+}
